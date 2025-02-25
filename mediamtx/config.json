@@ -6,7 +6,7 @@
   "arch": ["aarch64", "armhf", "armv7", "amd64", "i386"],
   "startup": "system",
   "boot": "auto",
-  "image": "bluenviron/mediamtx:latest-rpi",
+  "image": "ghcr.io/bluenviron/mediamtx:latest-rpi",
   "options": {},
   "schema": {}
 }
