@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "slug": "mediamtx",
   "description": "A lightweight RTSP server for streaming",
-  "arch": ["aarch64", "armv7", "armhf", "amd64", "i386", "arm64"],
+  "arch": ["aarch64", "armv7", "armhf", "amd64", "i386"],
   "startup": "system",
   "boot": "auto",
   "ports": {
