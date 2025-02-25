@@ -1,17 +1,12 @@
 {
-  "name": "MediaMTX RTSP Server",
-  "version": "1.0.0",
+  "name": "MediaMTX",
+  "version": "0.22.0",
   "slug": "mediamtx",
-  "description": "A lightweight RTSP server for streaming",
-  "arch": ["aarch64", "armv7", "armhf", "amd64", "i386"],
+  "description": "RTSP Server for Home Assistant",
+  "arch": ["aarch64", "armhf", "armv7", "amd64", "i386"],
   "startup": "system",
   "boot": "auto",
-  "ports": {
-    "8554/tcp": 8554,
-    "1935/tcp": 1935
-  },
-  "map": ["config:rw"],
+  "image": "bluenviron/mediamtx:latest-rpi",
   "options": {},
-  "schema": {},
-  "image": "ghcr.io/bluenviron/mediamtx:v0.22.0"
+  "schema": {}
 }
