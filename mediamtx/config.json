@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "slug": "mediamtx",
   "description": "A lightweight RTSP server for streaming",
-  "arch": ["aarch64", "armv7", "armhf", "amd64", "i386"],
+  "arch": ["aarch64", "armv7", "armhf", "amd64", "i386", "arm64"],
   "startup": "system",
   "boot": "auto",
   "ports": {
@@ -13,5 +13,5 @@
   "map": ["config:rw"],
   "options": {},
   "schema": {},
-  "image": "ghcr.io/bluenviron/mediamtx:latest"
+  "image": "bluenviron/mediamtx:latest"
 }
