@@ -13,5 +13,5 @@
   "map": ["config:rw"],
   "options": {},
   "schema": {},
-  "image": "bluenviron/mediamtx:latest"
+  "image": "ghcr.io/bluenviron/mediamtx:v0.22.0"
 }
